@@ -6,6 +6,7 @@ module.exports = {
   output: {
     dir: "dist",
   },
+  treeshake: false,
   plugins: [
     copy({
       targets: [{ src: "index.html", dest: "dist" }, {src: "/assets", dest: "dist"},{src:"index.css", dest: "dist"}],
