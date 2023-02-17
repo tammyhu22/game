@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Marcellus|DM+Sans');
+
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
+  }
+
+  .title {
+    width: 100%;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 2rem;
+    margin-right: 50px;
+    font-size: 30;
+    line-height: 20px;
+  }
+
+  body {
+    background-color: rgb(22, 22, 22);
+    font-family: DM Sans, sans-serif;
+    color: white;
+    opacity: 90%;
+    line-height: 40px;
+  }
+
+  .container_row{
+    display: flex;
+  }
+  
